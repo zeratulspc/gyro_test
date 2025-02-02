@@ -1,0 +1,29 @@
+name: gyro_test
+description: "gyro sensor test"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_compass: ^0.8.1
+  vector_math: ^2.1.4
+  geolocator: ^13.0.2
+  sensors_plus: ^6.1.1
+  flutter_localization: ^0.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
